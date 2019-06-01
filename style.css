@@ -1,19 +1,30 @@
 body {
 	margin: 0px;
+	font-family: fantasy;
 }
 
 .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	background-color: white;
 }
-
+.container2 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	justify-content: space-between;
+	width: 80%;
+	align-content: space-around;
+	align-items: center;
+	background-size: 100%
+}
 h1 {
 	font-family: fantasy;
 	font-size: 3em;
 	border-bottom: 2px solid pink;
 	border-right: 2px solid pink;
-	width: 400px;
+	width: 800px;
 	text-align: center;
 	-moz-box-shadow:4px 4px 5px #888888;
 	-ms-box-shadow: 4px 4px 5px #888888;
@@ -21,15 +32,59 @@ h1 {
 	-o-box-shadow: 4px 4px 5px #888888;
 	box-shadow: 4px 4px 5px #888888;
 	margin-top: 10px;
+	background-color: white;
 }
-
+h2 {
+	font-family: fantasy;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 500px;
+	text-align: center;
+	text-decoration: none;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+	background-color: white;
+	color: black;
+}
+a{
+	color: inherit;
+}
 img {
 	width: 600px;
 	height: 400px;
 	margin: 10px;
 	transition: all 1s;
 }
-
+input {
+	padding: 5px;
+	height: 30px;
+	margin: 10px;
+	width:60%;
+	border-color: black;
+}
+textarea{
+	padding: 5px;
+	height: 70px;
+	width: 83%;
+	margin-left: 38px;
+	margin-top: 20px;
+	border-color: black;
+}
+button{
+	width: 100px;
+	height: 35px;
+	background-color: #ef9517;
+	border-style: solid; 
+	text-align: center;
+	margin: 10px 0px 10px 150px; 
+	color: black;
+	border-color: black;
+}
 img:hover {
 	transform: scale(1.1);
 }
