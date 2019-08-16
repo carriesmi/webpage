@@ -58,7 +58,7 @@ img {
 	width: 600px;
 	height: 400px;
 	margin: 10px;
-	transition: all 0.1s;
+	transition: all 1s;
 }
 input {
 	padding: 5px;
@@ -86,5 +86,5 @@ button{
 	border-color: black;
 }
 img:hover {
-	transform: scale(1.5);
+	transform: scale(1.1);
 }
